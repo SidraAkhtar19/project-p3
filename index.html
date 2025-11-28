@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="page3style.css">
+<title>Ecommerce UI</title>
+
+</head>
+<body>
+
+<header>
+  <div class="top-bar container" role="banner">
+    <img src="logo-colored.png" alt="brand logo">
+    <form class="search-bar" role="search" aria-label="Site search">
+      <input type="text" placeholder="Search" aria-label="Search input" />
+      <select aria-label="Category select">
+        <option>All category</option>
+      </select>
+      <button type="submit" aria-label="Search button">Search</button>
+    </form>
+    <i class="fa-solid fa-user"></i>
+    <i class="fa-regular fa-message"></i>
+    <i class="fa-solid fa-heart"></i>
+    <i class="fa-solid fa-cart-arrow-down"></i>
+  </div>
+  <nav class="main-nav" role="navigation" aria-label="Primary navigation">
+    <ul>
+     <i class="fa-solid fa-bars"></i>
+      <li>All category</li>
+      <li>Hot offers</li>
+      <li>Gift boxes</li>
+      <li>Projects</li>
+      <li>Menu item</li>
+      <li>Help</li>
+      <i class="fa-solid fa-angle-down"></i>
+      <li style="margin-left:320px; font-weight: 600;">English, USD</li>
+      <i class="fa-solid fa-angle-down"></i>
+      <li style="font-weight: 600; cursor: pointer;">Ship to <img src="DE@2x.png" ></li>
+      <i class="fa-solid fa-angle-down"></i>
+    </ul>
+  </nav>
+</header>
+
+<div class="breadcrumb container" aria-label="Breadcrumb">
+  <a href="#">Home</a> &gt; <a href="#">Clothings</a> &gt; <a href="#">Men's wear</a> &gt; Summer clothing
+</div>
+
+<div class="box">
+  <aside class="sidebar" aria-label="Filters">
+    <section>
+      <h3>Category<span>See all</span></h3>
+      <ul>
+        <li>Mobile accessory</li>
+        <li>Electronics</li>
+        <li>Smartphones</li>
+        <li>Modern tech</li>
+      </ul>
+    </section>
+    <section>
+      <h3>Brands<span>See all</span></h3>
+      <ul>
+        <li><label><input type="checkbox" checked /> Samsung</label></li>
+        <li><label><input type="checkbox" checked /> Apple</label></li>
+        <li><label><input type="checkbox" /> Huawei</label></li>
+        <li><label><input type="checkbox" checked /> Pocco</label></li>
+        <li><label><input type="checkbox" /> Lenovo</label></li>
+      </ul>
+    </section>
+    <section>
+      <h3>Features<span>See all</span></h3>
+      <ul>
+        <li><label><input type="checkbox" checked /> Metallic</label></li>
+        <li><label><input type="checkbox" /> Plastic cover</label></li>
+        <li><label><input type="checkbox" /> 8GB Ram</label></li>
+        <li><label><input type="checkbox" /> Super power</label></li>
+        <li><label><input type="checkbox" /> Large Memory</label></li>
+      </ul>
+    </section>
+    <section>
+      <h3>Price range</h3>
+    </section>
+    <section>
+      <h3>Condition</h3>
+    </section>
+    <section>
+      <h3>Ratings</h3>
+    </section>
+    <section>
+      <h3>Manufacturer</h3>
+    </section>
+  </aside>
+
+  <main class="main-content" aria-label="Product listing">
+    <div class="product-list-header">
+      <div>12,911 items in <strong>Mobile accessory</strong></div>
+      <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="check" >
+  <label class="form-check-label" for="check">
+    Verified only
+  </label>
+</div>
+      </select>
+      <div class="view-toggle" aria-label="Toggle view">
+        <button aria-pressed="true" class="active" title="Grid view">
+          <svg width="16" height="16" fill="none" stroke="#0071e3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+            <rect x="1" y="1" width="6" height="6"/>
+            <rect x="9" y="1" width="6" height="6"/>
+            <rect x="1" y="9" width="6" height="6"/>
+            <rect x="9" y="9" width="6" height="6"/>
+          </svg>
+        </button>
+        <button aria-pressed="false" title="List view">
+          <svg width="16" height="16" fill="none" stroke="#555" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+            <line x1="2" y1="4" x2="14" y2="4"/>
+            <line x1="2" y1="8" x2="14" y2="8"/>
+            <line x1="2" y1="12" x2="14" y2="12"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="filter-tags" aria-label="Active filters">
+      <div class="filter-tag">Samsung
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12" stroke="#0071e3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </div>
+      <div class="filter-tag">Apple
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12" stroke="#0071e3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </div>
+      <div class="filter-tag">Poco
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12" stroke="#0071e3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </div>
+      <div class="filter-tag">Metallic
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12" stroke="#0071e3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </div>
+      <div class="filter-tag">4 star
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12" stroke="#0071e3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </div>
+      <div class="filter-tag">3 star
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12" stroke="#0071e3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </div>
+      <div class="clear-filters" role="button" tabindex="0">Clear all filter</div>
+    </div>
+
+    <div class="products-grid" aria-label="Products">
+      <article class="product-card" tabindex="0">
+        <img src="image 33.png" alt="Samsung Red Phone" class="product-image" />
+        <div>
+          <div class="product-price">$99.50<span class="original-price">$128.00</span></div>
+          <div class="product-rating" aria-label="Rating 7.5 stars">
+            <svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            7.5
+          </div>
+          <div class="product-name">GoPro HERO6 4K Action</div>
+          <div class="product-desc">Camera - Black</div>
+        </div>
+        <button class="wishlist-btn" aria-label="Add to wishlist">
+          <svg viewBox="0 0 24 24" aria-hidden="true" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </button>
+      </article>
+
+      <article class="product-card" tabindex="0">
+        <img src="blue.jpg" alt="Samsung Blue Phone" class="product-image" />
+        <div>
+          <div class="product-price">$99.50<span class="original-price">$128.00</span></div>
+          <div class="product-rating" aria-label="Rating 5.9 stars">
+            <svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            5.9
+          </div>
+          <div class="product-name">GoPro HERO6 4K Action</div>
+          <div class="product-desc">Camera - Black</div>
+        </div>
+        <button class="wishlist-btn" aria-label="Add to wishlist">
+          <svg viewBox="0 0 24 24" aria-hidden="true" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </button>
+      </article>
+
+      <article class="product-card" tabindex="0">
+        <img src="image 23.png" alt="Smartphone" class="product-image" />
+        <div>
+          <div class="product-price">$99.50</div>
+          <div class="product-rating" aria-label="Rating 7.5 stars">
+            <svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            7.5
+          </div>
+          <div class="product-name">GoPro HERO6 4K Action</div>
+          <div class="product-desc">Camera - Black</div>
+        </div>
+        <button class="wishlist-btn" aria-label="Add to wishlist">
+          <svg viewBox="0 0 24 24" aria-hidden="true" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </button>
+      </article>
+
+      <article class="product-card" tabindex="0">
+        <img src="image 32.png" alt="Tablet" class="product-image" />
+        <div>
+          <div class="product-price">$99.50<span class="original-price">$128.00</span></div>
+          <div class="product-rating" aria-label="Rating 7.5 stars">
+            <svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            7.5
+          </div>
+          <div class="product-name">GoPro HERO6 4K Action</div>
+          <div class="product-desc">Camera - Black</div>
+        </div>
+        <button class="wishlist-btn" aria-label="Add to wishlist">
+          <svg viewBox="0 0 24 24" aria-hidden="true" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </button>
+      </article>
+
+      <article class="product-card" tabindex="0">
+        <img src="6.png" alt="Camera Canon" class="product-image" />
+        <div>
+          <div class="product-price">$99.50<span class="original-price">$128.00</span></div>
+          <div class="product-rating" aria-label="Rating 7.5 stars">
+            <svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            7.5
+          </div>
+          <div class="product-name">GoPro HERO6 4K Action</div>
+          <div class="product-desc">Camera - Black</div>
+        </div>
+        <button class="wishlist-btn" aria-label="Add to wishlist">
+          <svg viewBox="0 0 24 24" aria-hidden="true" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </button>
+      </article>
+
+      <article class="product-card" tabindex="0">
+        <img src="blue.jpg" alt="Samsung Blue Phone" class="product-image" />
+        <div>
+          <div class="product-price">$99.50</div>
+          <div class="product-rating" aria-label="Rating 7.5 stars">
+            <svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            7.5
+          </div>
+          <div class="product-name">GoPro HERO6 4K Action</div>
+          <div class="product-desc">Camera - Black</div>
+        </div>
+        <button class="wishlist-btn" aria-label="Add to wishlist">
+          <svg viewBox="0 0 24 24" aria-hidden="true" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </button>
+      </article>
+
+      <article class="product-card" tabindex="0">
+        <img src="image 34.png" alt="Laptop" class="product-image" />
+        <div>
+          <div class="product-price">$99.50<span class="original-price">$128.00</span></div>
+          <div class="product-rating" aria-label="Rating 7.5 stars">
+            <svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            7.5
+          </div>
+          <div class="product-name">GoPro HERO6 4K Action</div>
+          <div class="product-desc">Camera - Black</div>
+        </div>
+        <button class="wishlist-btn" aria-label="Add to wishlist">
+          <svg viewBox="0 0 24 24" aria-hidden="true" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </button>
+      </article>
+
+      <article class="product-card" tabindex="0">
+        <img src="8.png" alt="Smart Watch" class="product-image" />
+        <div>
+          <div class="product-price">$99.50<span class="original-price">$128.00</span></div>
+          <div class="product-rating" aria-label="Rating 7.5 stars">
+            <svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            7.5
+          </div>
+          <div class="product-name">GoPro HERO6 4K Action</div>
+          <div class="product-desc">Camera - Black</div>
+        </div>
+        <button class="wishlist-btn" aria-label="Add to wishlist">
+          <svg viewBox="0 0 24 24" aria-hidden="true" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </button>
+      </article>
+
+      <article class="product-card" tabindex="0">
+        <img src="image 33.png" alt="Samsung Red Phone" class="product-image" />
+        <div>
+          <div class="product-price">$99.50<span class="original-price">$128.00</span></div>
+          <div class="product-rating" aria-label="Rating 7.5 stars">
+            <svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            7.5
+          </div>
+          <div class="product-name">GoPro HERO6 4K Action</div>
+          <div class="product-desc">Camera - Black</div>
+        </div>
+        <button class="wishlist-btn" aria-label="Add to wishlist">
+          <svg viewBox="0 0 24 24" aria-hidden="true" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </button>
+      </article>
+    </div>
+
+     <div class="pagination" role="navigation" aria-label="Pagination">
+     <div class="boxx">
+      <label for="show-items">Show 10</label>
+      <i class="fa-solid fa-angle-down"></i>
+     </div>
+      <button aria-current="true" class="active" aria-label="Page 1">1</button>
+      <button aria-label="Page 2">2</button>
+      <button aria-label="Page 3">3</button>
+      <button aria-label="Next page" title="Next">&gt;</button>
+    </div>
+  </main>
+</div>
+
+<section class="newsletter" aria-label="Newsletter subscription">
+  <p><strong>Subscribe on our newsletter</strong></p>
+  <p>Get daily news on upcoming offers from many suppliers all over the world</p>
+  <form>
+    <input type="email" placeholder="Email" aria-label="Email address" required />
+    <button type="submit">Subscribe</button>
+  </form>
+</section>
+
+<footer aria-label="Site footer">
+  <div class="container">
+    <div class="footer-brand">
+      <img src="logo-colored.png">
+      <p>Best information about the company goes here but now lorem ipsum is</p>
+      <div class="social-icons" aria-label="Social media links">
+        <a href="#" aria-label="Facebook" title="Facebook" tabindex="0"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" aria-label="Twitter" title="Twitter" tabindex="0"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" aria-label="LinkedIn" title="LinkedIn" tabindex="0"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" aria-label="Instagram" title="Instagram" tabindex="0"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="YouTube" title="YouTube" tabindex="0"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <div>
+        <h4>About</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Find store</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Blogs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Partnership</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Find store</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Blogs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Information</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Money Refund</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>For users</h4>
+        <ul>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">My Orders</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="app-download" aria-label="Download app">
+      <h4>Get app</h4>
+      <div class="app-icons">
+        <a href="#" aria-label="Download on the App Store" tabindex="0"><img src="market-button.png" alt="App Store" /></a>
+        <a href="#" aria-label="Get it on Google Play" tabindex="0"><img src="Group.png" alt="Google Play" /></a>
+      </div>
+    </div>
+  </div>
+  <div style="text-align:center; padding-top:1rem; font-size:0.8rem; color:#6c757d;">© 2023 Ecommerce.</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+
+</body>
+</html>
